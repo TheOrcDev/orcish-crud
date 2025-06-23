@@ -12,7 +12,6 @@ import {
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -27,7 +26,7 @@ export default async function UsersTable() {
 
   return (
     <Table>
-      <TableCaption>A list of your recent invoices.</TableCaption>
+      <TableCaption>A list users.</TableCaption>
       <TableHeader>
         <TableRow>
           <TableHead className="w-[100px]">Email</TableHead>
